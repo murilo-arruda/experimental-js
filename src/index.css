@@ -1,5 +1,7 @@
+@import-normalize;
+
 body {
-  margin: 0;
+  margin: auto 20%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.blue {
+  color: lightskyblue;
+}
+.bg-blue {
+  background-color: rgb(70, 119, 209);
+}
+.white {
+  color: #fff;
+}
+.bg-success {
+  background-color: rgb(55, 187, 61);
+}
+.bg-danger {
+  background-color: rgb(255, 106, 47);
 }

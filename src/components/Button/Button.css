@@ -1,0 +1,21 @@
+button {
+  font-size: 1.1em;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 4px;
+  box-shadow: 2px 2px rgba(172, 170, 170, 0.603);
+  transition: ease 0.1s box-shadow;
+}
+
+button:active {
+  position: relative;
+  animation: active-button 0.1s forwards;
+}
+
+@keyframes active-button {
+  100% {
+    left: 2px;
+    top: 2px;
+    box-shadow: none;
+  }
+}
