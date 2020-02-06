@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'components/Button';
+import Form from 'components/Form';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         quidem optio porro velit atque fugiat sint deleniti nesciunt tempore,
         voluptatibus fuga.
       </p>
+      <Form />
       <Button text='Decline' className='white bg-danger' />
       <Button text='Accept' className='white bg-success' />
       <Button text='Help' className='white bg-blue' />

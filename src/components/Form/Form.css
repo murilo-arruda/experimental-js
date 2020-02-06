@@ -1,0 +1,50 @@
+form {
+  margin: 15px;
+  border: 1px solid rgba(47, 79, 79, 0.459);
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  align-items: center;
+}
+h2 {
+  color: rgb(53, 73, 73);
+}
+
+form input {
+  max-width: 200px;
+  border: 1px solid rgba(47, 79, 79, 0.438);
+  color: #3f3f3f;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border-radius: 5px;
+  font-size: 1.1em;
+  outline: 0;
+  padding: 6px;
+}
+
+form input:focus {
+  box-shadow: inset 0px 0px 0.2em lightskyblue;
+  outline: 0;
+}
+
+.placeholder {
+  position: absolute;
+  bottom: 11px;
+  color: grey;
+  left: 5px;
+  background: #fff;
+  transition: ease 0.2s transform;
+}
+.special-input {
+  position: relative;
+  margin-bottom: 15px;
+}
+.animate {
+  transform: scale(0.9) translateY(-19px);
+  color: rgb(111, 182, 206);
+}
+.blur {
+  color: grey;
+}
